@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* General Styles */
 * {
     margin: 0;
@@ -161,7 +165,7 @@ a {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #b05757;
+    background-color: #fc8383;
 }
 
 .content-header p {
@@ -211,7 +215,7 @@ a {
 }
 
 .btn:hover {
-    background-color: #b05757;
+    background-color: #fc8383;
     color: white;
 }
 
@@ -242,7 +246,12 @@ a {
 
 .skill-icon {
     font-size: 36px;
-    color: #b05757;
+    color: #fc8383;
+    margin-bottom: 20px;
+}
+.iot {
+    font-size: 36px;
+    color: #fc8383;
     margin-bottom: 20px;
 }
 
@@ -264,7 +273,7 @@ a {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #b05757;
+    background-color: #fc8383;
 }
 
 .experience-item {
@@ -276,7 +285,21 @@ a {
 .experience-year {
     flex: 0 0 150px;
     font-weight: bold;
-    color: #b05757;
+    color: #ffaa56;
+    font-size: 18px;
+}
+
+.experience-years {
+    flex: 0 0 150px;
+    font-weight: bold;
+    color: #f2d86f;
+    font-size: 18px;
+}
+
+.experience-yearsed {
+    flex: 0 0 150px;
+    font-weight: bold;
+    color: #68f268;
     font-size: 18px;
 }
 
