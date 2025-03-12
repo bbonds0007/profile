@@ -12,7 +12,7 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #F7F7F7;
     background-color: #f4f4f4;
     overflow-x: hidden;
 }
@@ -30,8 +30,8 @@ a {
 /* Sidebar Styles */
 .sidebar {
     width: 220px;
-    background-color: #b05757;
-    color: white;
+    background-color: #F7F7F7;
+    color: #000000;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -82,17 +82,17 @@ a {
 }
 
 .nav-menu li {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid #cbcbcb;
 }
 
 .nav-menu li:last-child {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid #cbcbcb;
 }
 
 .nav-menu li a {
     display: block;
     padding: 15px;
-    color: white;
+    color: #000000;
     transition: background-color 0.3s;
     font-size: 14px;
 }
@@ -115,14 +115,14 @@ a {
     justify-content: center;
     width: 32px;
     height: 32px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #F7F7F7;
     border-radius: 50%;
     transition: background-color 0.3s;
     font-size: 14px;
 }
 
 .social-icons a:hover {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #F7F7F7;
 }
 
 .copyright {
@@ -140,8 +140,8 @@ a {
 /* Content Styles */
 .content {
     flex-grow: 1;
-    background-color: #222;
-    color: #f4f4f4;
+    background-color: #F7F7F7;
+    color: #000000;
     padding: 40px;
     margin-left: 220px;
     width: calc(100% - 220px);
@@ -165,7 +165,7 @@ a {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #fc8383;
+    background-color: #FFB22C;
 }
 
 .content-header p {
@@ -204,7 +204,7 @@ a {
     line-height: 1.8;
 }
 
-.btn {
+/* .btn {
     display: inline-block;
     background-color: #fff;
     color: #333;
@@ -217,7 +217,7 @@ a {
 .btn:hover {
     background-color: #fc8383;
     color: white;
-}
+} */
 
 /* Secondary Content Section Flip */
 .secondary-content {
@@ -233,7 +233,7 @@ a {
 }
 
 .skill-card {
-    background-color: #333;
+    background-color: #565656;
     border-radius: 5px;
     padding: 30px;
     text-align: center;
@@ -246,16 +246,23 @@ a {
 
 .skill-icon {
     font-size: 36px;
-    color: #fc8383;
+    color: #F7F7F7;
     margin-bottom: 20px;
 }
-.iot {
+/* .iot {
     font-size: 36px;
-    color: #fc8383;
+    color: #F7F7F7;
     margin-bottom: 20px;
-}
+} */
 
 .skill-card h3 {
+    margin-bottom: 16px;
+    color: #F7F7F7;
+}
+
+.skill-title {
+    font-size: 15px;
+    color: #F7F7F7;
     margin-bottom: 15px;
 }
 
@@ -273,7 +280,7 @@ a {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #fc8383;
+    background-color: #FFB22C;
 }
 
 .experience-item {
@@ -285,21 +292,21 @@ a {
 .experience-year {
     flex: 0 0 150px;
     font-weight: bold;
-    color: #ffaa56;
+    color: #854836;
     font-size: 18px;
 }
 
 .experience-years {
     flex: 0 0 150px;
     font-weight: bold;
-    color: #f2d86f;
+    color: #1a82f1;
     font-size: 18px;
 }
 
 .experience-yearsed {
     flex: 0 0 150px;
     font-weight: bold;
-    color: #68f268;
+    color: #0a980a;
     font-size: 18px;
 }
 
