@@ -1,2 +1,2 @@
 # Profile
-Kanjanaroj Khamkhom
+Kanjanaroj Khamkom is currently a fourth-year student in the Computer Engineering program at Mae Fah Luang University. The decision to pursue this field was driven by a deep passion for technology, which has been a significant interest since childhood. Additionally, Kanjanaroj recognizes the importance of English as a global language and is eager to improve their proficiency in both reading and speaking to enhance daily communication and professional growth.
