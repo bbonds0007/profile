@@ -58,7 +58,7 @@
                     adapting to new challenges, feel free to reach out!</p>
             </header>
 
-            <div class="contact-container">
+         <div class="contact-container">
                 <!-- Contact Form (Left Side) -->
                 <section class="contact-form">
                     <h3>Mail</h3>
@@ -87,25 +87,29 @@
 
             <section class="contact-info">
                 <h3>Get in Touch</h3>
+            
                 <!-- GitHub -->
                 <p>
                     <i class="fab fa-github"></i>
                     <a href="https://github.com/puoq007" target="_blank">github.com/puoq007</a>
                 </p>
+            
                 <!-- Email -->
                 <p>
                     <i class="fas fa-envelope"></i>
                     <a href="mailto:kanjanaroj.k@gmail.com">kanjanaroj.k@gmail.com</a>
                 </p>
+            
                 <!-- Line -->
                 <p>
                     <i class="fab fa-line"></i>
-                    <a href="https://line.me/R/ti/p/~ball_2546" target="_blank">lind Id or QR code</a>
+                    <a href="https://line.me/R/ti/p/~ball_2546" target="_blank">ball_2546</a>
                 </p>
-                <!-- โทรออก -->
+            
+                <!-- WhatsApp -->
                 <p>
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:+66987945813">+66 98-794-5813</a>
+                    <i class="fab fa-whatsapp"></i>
+                    <a href="https://wa.me/66987945813" target="_blank">+66 98-794-5813</a>
                 </p>
             </section>
         </main>
@@ -113,23 +117,3 @@
 </body>
 
 </html>
-
-<script>
-    document.getElementById("emailForm").addEventListener("submit", function(event) {
-        event.preventDefault(); // ป้องกันการรีเฟรชหน้า
-
-        // ดึงค่าจาก input
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var subject = document.getElementById("subject").value;
-        var message = document.getElementById("message").value;
-
-        // สร้าง mailto link
-        var mailtoLink = "mailto:kanjanaroj.k@gmail.com"
-            + "?subject=" + encodeURIComponent(subject)
-            + "&body=" + encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\n" + message);
-
-        // เปิดหน้าต่างส่งอีเมล
-        window.location.href = mailtoLink;
-    });
-</script>

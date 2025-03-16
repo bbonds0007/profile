@@ -1,0 +1,22 @@
+{
+    "sourceFile": "public/contact.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1742109513382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1742109832413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,15 +11,22 @@\n .content-header p {\n     margin-bottom: 20px;\n }\n \n-.contact-form,\n-.contact-info {\n-    margin-top: 20px;\n+/* Contact Container */\n+.contact-container {\n+    display: flex;\n+    align-items: center;\n+    gap: 40px;\n }\n \n-.contact-form h3,\n-.contact-info h3 {\n+/* Contact Form (Left Side) */\n+.contact-form {\n+    flex: 1;\n+    max-width: 50%;\n+}\n+\n+.contact-form h3 {\n     margin-bottom: 10px;\n }\n \n .contact-form form {\n@@ -46,8 +53,30 @@\n     border: none;\n     cursor: pointer;\n }\n \n+/* Contact Image (Right Side) */\n+.contact-image {\n+    flex: 1;\n+    max-width: 50%;\n+    text-align: center;\n+}\n+\n+.contact-image img {\n+    width: 100%;\n+    max-width: 400px;\n+    border-radius: 10px;\n+}\n+\n+/* Contact Info */\n+.contact-info {\n+    margin-top: 20px;\n+}\n+\n+.contact-info h3 {\n+    margin-bottom: 10px;\n+}\n+\n .contact-info p {\n     display: flex;\n     align-items: center;\n     gap: 10px;\n"
+                }
+            ],
+            "date": 1742109513382,
+            "name": "Commit-0",
+            "content": "/* Content */\n.content {\n    flex-grow: 1;\n    padding: 40px;\n}\n\n.content-header h2 {\n    color: #333;\n}\n\n.content-header p {\n    margin-bottom: 20px;\n}\n\n.contact-form,\n.contact-info {\n    margin-top: 20px;\n}\n\n.contact-form h3,\n.contact-info h3 {\n    margin-bottom: 10px;\n}\n\n.contact-form form {\n    display: flex;\n    flex-direction: column;\n}\n\n.contact-form label {\n    margin-top: 10px;\n}\n\n.contact-form input,\n.contact-form textarea {\n    padding: 10px;\n    border: 1px solid #ccc;\n    width: 100%;\n}\n\n.contact-form button {\n    margin-top: 15px;\n    padding: 10px;\n    background: #ff7b00;\n    color: white;\n    border: none;\n    cursor: pointer;\n}\n\n.contact-info p {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n}\n\n.contact-info a {\n    text-decoration: none;\n    color: #ff7b00;\n}"
+        }
+    ]
+}

@@ -100,7 +100,7 @@
                 <!-- Line -->
                 <p>
                     <i class="fab fa-line"></i>
-                    <a href="https://line.me/R/ti/p/~ball_2546" target="_blank">lind Id or QR code</a>
+                    <a href="https://line.me/R/ti/p/~ball_2546" target="_blank">ball_2546</a>
                 </p>
                 <!-- โทรออก -->
                 <p>
@@ -113,23 +113,3 @@
 </body>
 
 </html>
-
-<script>
-    document.getElementById("emailForm").addEventListener("submit", function(event) {
-        event.preventDefault(); // ป้องกันการรีเฟรชหน้า
-
-        // ดึงค่าจาก input
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var subject = document.getElementById("subject").value;
-        var message = document.getElementById("message").value;
-
-        // สร้าง mailto link
-        var mailtoLink = "mailto:kanjanaroj.k@gmail.com"
-            + "?subject=" + encodeURIComponent(subject)
-            + "&body=" + encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\n" + message);
-
-        // เปิดหน้าต่างส่งอีเมล
-        window.location.href = mailtoLink;
-    });
-</script>

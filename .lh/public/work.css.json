@@ -1,0 +1,18 @@
+{
+    "sourceFile": "public/work.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1742111621595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1742111621595,
+            "name": "Commit-0",
+            "content": "/* Main Content */\n.content {\n    width: 75%;\n    padding: 30px;\n}\n\n.content-headers h2 {\n    font-size: 36px;\n    border-bottom: 3px solid #ff6600;\n    display: inline-block;\n    padding-bottom: 5px;\n    margin-bottom: 20px;\n}\n\n.work-item {\n    margin-bottom: 20px;\n    background: #fff;\n    padding: 15px;\n    border-radius: 10px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n}\n\n.work-item h3 {\n    font-size: 18px;\n    margin-bottom: 10px;\n}\n\n.work-item p {\n    font-size: 16px;\n    color: #555;\n}\n\n"
+        }
+    ]
+}
